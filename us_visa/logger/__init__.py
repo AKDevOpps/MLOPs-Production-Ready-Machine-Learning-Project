@@ -1,8 +1,12 @@
 import logging
 import os
 
-from from_root import from_root
+
+#from from_root import from_root
+def from_root():
+    return os.path.dirname(os.path.abspath(__file__))
 from datetime import datetime
+
 
 LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 
