@@ -10,7 +10,7 @@
 - MongoDB: https://account.mongodb.com/account/login
 - Data link: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
 
-
+##  python -m pip install "pymongo[srv]==3.11"
 ## Git commands
 
 ```bash
